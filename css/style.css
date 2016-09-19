@@ -1,0 +1,51 @@
+@import url(normalize.css);
+
+body {
+	background-color: lightgrey;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 700px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+
+button {
+	width: 250px;
+	height: 70px;
+	border-radius: 20px;
+	color: white;
+	margin: 50px 10px;
+	font-size: 25px;
+	box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+	-webkit-transition: all .1s linear;
+	transition: all .1s linear;
+}
+
+
+#count {
+	font-size: 100px;
+	width: 530px;
+}
+
+
+#stop {
+	background-color: red;
+}
+
+
+#start {
+	background-color: green;
+}
